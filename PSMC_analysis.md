@@ -62,7 +62,7 @@ DerCor_combined_filtered.vcf.gz \
 ```
 #!/bin/bash -e
 
-#SBATCH --cpus-per-task  12
+#SBATCH --cpus-per-task  1
 #SBATCH --job-name       FilexPSMC
 #SBATCH --mem            15G
 #SBATCH --time           24:00:00
@@ -87,7 +87,7 @@ done
 ```
 #!/bin/bash -e
 
-#SBATCH --cpus-per-task  6
+#SBATCH --cpus-per-task  2
 #SBATCH --job-name       Bt_PSMC
 #SBATCH --mem            20G
 #SBATCH --time           4-00:00:00
