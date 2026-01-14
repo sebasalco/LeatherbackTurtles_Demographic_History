@@ -1,4 +1,4 @@
-# We used angsd modules to perform several analysis.
+# Scripts to perform PSMC analysis on a candidate individual per Leatherback turtle population.
 ---
 ## 1. Extract candidate individual per population from global DerCor VCF dataset
 `Slurm script for VCFtools`
